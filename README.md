@@ -1,3 +1,50 @@
+## <p align="center">Netflix-clone</p>
+
+<p align="center">To get started</p>
+
+- We're going to be using tmdb to pull the movies 
+
+## List of movies end point
+
+- Trending - https://api.themoviedb.org/3/trending/all/week?api_key=Your-Api-Key&language=en-US
+
+- Netflix_Originals - https://api.themoviedb.org/3/discover/tv?api_key=Your-Api-Key&with_network=213 
+
+- Top_Rated - https://api.themoviedb.org/3/movie/top_rated?api_key=Your-Api-Key&language=en-US
+
+- Action_Movies - https://api.themoviedb.org/3/discover/movie?api_key=Your-Api-Key&with_genres=28
+
+- Comedy_Movies - https://api.themoviedb.org/3/discover/movie?api_key=Your-Api-Key&with_genres=35
+
+- Horror_Movies - https://api.themoviedb.org/3/discover/movie?api_key=Your-Api-Key&with_genres=27
+
+- Romance_Movies - https://api.themoviedb.org/3/discover/movie?api_key=Your-Api-Key&with_genres=10749
+
+- Documentaries - https://api.themoviedb.org/3/discover/movie?api_key=Your-Api-Key&with_genres=99 
+
+## Image url
+
+- https://image.tmdb.org/t/p/original/
+
+## The time function is to pick at random for banner image
+
+- substr(microtime()*100,0,1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
