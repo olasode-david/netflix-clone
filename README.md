@@ -1,5 +1,7 @@
 ## <p align="center">Netflix-clone</p>
 
+<p align="center"><a href="http://netflix-clone.42web.io/">Netflix-clone</a></p>
+
 ## To get started
 
 - We're going to be using tmdb to pull the movies 
