@@ -38,7 +38,7 @@
             
                 var name = $(this).data("name");//this get the data-name of the div
                 //this run the api to get the videoId
-                    $.getJSON("https://www.googleapis.com/youtube/v3/search?part=snippet&q="+name+"&key=AIzaSyCOLgdB1X7RKsY9Yt8HP4_Eb9ldLxecQE0", function(json) {
+                    $.getJSON("https://www.googleapis.com/youtube/v3/search?part=snippet&q="+name+"&key=Your-Api-Key", function(json) {
                         //this get the videoid
                         const videoId = json.items[0].id.videoId;
                         //this display the youtube view
