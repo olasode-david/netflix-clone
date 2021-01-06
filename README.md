@@ -4,7 +4,7 @@
 
 ## To get started
 
-- We're going to be using tmdb to pull the movies 
+- We're going to be using tmdb api  to pull the movies 
 
 ## List of movies end point
 
