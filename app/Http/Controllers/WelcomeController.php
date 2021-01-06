@@ -10,21 +10,21 @@ class WelcomeController extends Controller
     {   
        
         //All movies list
-        $trending = json_decode(file_get_contents("https://api.themoviedb.org/3/trending/all/week?api_key=9c6521dedf9a3498429a6b36d9eab02c&language=en-US"), true);
+        $trending = json_decode(file_get_contents("https://api.themoviedb.org/3/trending/all/week?api_key=Your-Api-Key&language=en-US"), true);
 
-        $netflixOriginals = json_decode(file_get_contents("https://api.themoviedb.org/3/discover/tv?api_key=9c6521dedf9a3498429a6b36d9eab02c&with_network=213"), true);
+        $netflixOriginals = json_decode(file_get_contents("https://api.themoviedb.org/3/discover/tv?api_key=Your-Api-Key&with_network=213"), true);
 
-        $topRated = json_decode(file_get_contents("https://api.themoviedb.org/3/movie/top_rated?api_key=9c6521dedf9a3498429a6b36d9eab02c&language=en-US"), true);
+        $topRated = json_decode(file_get_contents("https://api.themoviedb.org/3/movie/top_rated?api_key=Your-Api-Key&language=en-US"), true);
 
-        $actionMovies = json_decode(file_get_contents("https://api.themoviedb.org/3/discover/movie?api_key=9c6521dedf9a3498429a6b36d9eab02c&with_genres=28"), true);
+        $actionMovies = json_decode(file_get_contents("https://api.themoviedb.org/3/discover/movie?api_key=Your-Api-Key&with_genres=28"), true);
 
-        $comedyMovies = json_decode(file_get_contents("https://api.themoviedb.org/3/discover/movie?api_key=9c6521dedf9a3498429a6b36d9eab02c&with_genres=35"), true);
+        $comedyMovies = json_decode(file_get_contents("https://api.themoviedb.org/3/discover/movie?api_key=Your-Api-Key&with_genres=35"), true);
 
-        $horrorMovies = json_decode(file_get_contents("https://api.themoviedb.org/3/discover/movie?api_key=9c6521dedf9a3498429a6b36d9eab02c&with_genres=27"), true);
+        $horrorMovies = json_decode(file_get_contents("https://api.themoviedb.org/3/discover/movie?api_key=Your-Api-Key&with_genres=27"), true);
 
-        $romanceMovies = json_decode(file_get_contents("https://api.themoviedb.org/3/discover/movie?api_key=9c6521dedf9a3498429a6b36d9eab02c&with_genres=10749"), true);
+        $romanceMovies = json_decode(file_get_contents("https://api.themoviedb.org/3/discover/movie?api_key=Your-Api-Key&with_genres=10749"), true);
 
-        $documentaries = json_decode(file_get_contents("https://api.themoviedb.org/3/discover/movie?api_key=9c6521dedf9a3498429a6b36d9eab02c&with_genres=99"), true);
+        $documentaries = json_decode(file_get_contents("https://api.themoviedb.org/3/discover/movie?api_key=Your-Api-Key&with_genres=99"), true);
 
         //img url 
         $st = "https://image.tmdb.org/t/p/original/";
