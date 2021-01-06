@@ -1,6 +1,6 @@
 ## <p align="center">Netflix-clone</p>
 
-<p align="center">To get started</p>
+## To get started
 
 - We're going to be using tmdb to pull the movies 
 
@@ -29,6 +29,8 @@
 ## The time function is to pick at random for banner image
 
 - substr(microtime()*100,0,1)
+
+<p>Make use of the embed tag for the youtube trillers and jquery to make it dynamic when you click on the images</p>
 
 
 
